@@ -1,4 +1,36 @@
 {
   "name": "@quanda/react-box",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "A react component for rapid box modeling",
+  "license": "MIT",
+  "author": {
+    "name": "Eric Furspan",
+    "email": "eric.furspan@gmail.com",
+    "url": "https://www.ericfurspan.com"
+  },
+  "repository": "Quanda/react-box",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/*.ts\" \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [
+    "box-model",
+    "react",
+    "npm",
+    "quanda"
+  ],
+  "homepage": "https://github.com/Quanda/react-box",
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7",
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.2.1"
+  }
 }
