@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
 export interface BoxProps {
+  className?: string;
+  children: JSX.Element[] | JSX.Element;
   d?: string;
   display?: string;
   h?: string;

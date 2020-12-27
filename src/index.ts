@@ -1,8 +1,4 @@
-import styled from 'styled-components';
+import Box from './box';
 import { BoxProps, boxMixin, filterBoxProps } from './utils';
 
-const Box = (props: BoxProps) => styled.div`
-  ${boxMixin};
-`;
-
-export { BoxProps, Box, filterBoxProps };
+export { BoxProps, Box, boxMixin, filterBoxProps };
