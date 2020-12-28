@@ -173,7 +173,8 @@ export const boxMixin = css<BoxProps>`
     `};
 
   ${(props) =>
-    props.flex === '2' &&
+    props.flex &&
+    typeof props.flex === 'boolean' &&
     props.col &&
     css`
       flex-direction: column;
