@@ -6,6 +6,16 @@ Built with `TypeScript` and `styled-components`
 ## Overview
 `Box` is simply an HTML `div` element. What makes it unique are it's [available props](#available-props) which are semantically defined to enable rapid layouts using common box-model attributes such as `padding`, `margin`, `position`, and so on.
 
+Example: 12-column grid
+```jsx
+<Box
+  grid
+  gtc="repeat(12, minmax(0, 1fr))"
+  p='2em'
+>
+  {props.children}
+</Box>
+```
 
 ## Installation via NPM
 
